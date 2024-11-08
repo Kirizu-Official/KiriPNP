@@ -1,0 +1,96 @@
+site_name: KiriPNP 官方文档
+repo_url: https://github.com/Kirizu-Official/KiriPNP
+repo_name: KiriPNP
+edit_uri: edit/docs/docs/
+google_analytics: ['G-5ZBQ9BT3Y9', 'docs.kiripnp.com']
+theme:
+  name: material
+  language: zh
+  highlightjs: true
+  hljs_languages:
+    - yaml
+  font:
+    text: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent:  blue
+      primary: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent:  light blue
+      primary: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.share
+    - navigation.footer
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - smarty
+  - mdx_truly_sane_lists
+  - mdx_breakless_lists
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
+      baselevel: 4
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - i18n:
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          name: 简体中文
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+          default: false
+        - locale: "null"
+          name: Translating
+          build: false
+          fixed_link: https://spaceship-prompt.sh/contribute/?h=trans#Translating
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      fallback_to_build_date: true
+  - search
+extra:
+  scope: /
+  social: 
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+copyright: Copyright &copy; 2024 KirizuのKiriPNP
+nav:
+  - 首页: 
+      - 首页: 'index.md'
+      - 协助维护: 'help.md'
+  - 用户手册: '/user-guide/'
+  - 故障排查: '/bugs/'
+  - 其他: '/other/'
