@@ -1,7 +1,7 @@
 # KiriPNP
 KiriPNP是新一代贴片机上位机软件 / KiriPNP is a new generation of pick and place software
 
-软件正在开发和测试中，预计在 2024 年 12 月开始公测 / The software is being developed and tested, with public beta expected to begin in December 2024
+软件正在开发和测试中，预计在 2025 年 第一季度 开始公测 / The software is being developed and tested, with public beta expected to begin in 2025Q1
 
 你可以 watch 本仓库获取最新动态 / You can watch this repository to get the latest news
 
