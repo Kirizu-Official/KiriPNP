@@ -7,6 +7,9 @@ KiriPNP是新一代贴片机上位机软件 / KiriPNP is a new generation of pic
 
 你可以 star 本仓库催促作者尽快开发 / You can star this repository to urge the author to develop as soon as possible
 
+# 内测
+KiriPNP内测已开启，内测名额有限，您可以加入QQ群  [1043341238](https://qm.qq.com/q/Jg3LjlFz6k) 了解详情并参与内测；如无法加群则说明内测名额已满。
+
 # Support
 
 控制板使用Klipper固件，支持市面上大多数控制板，同时支持多主板，并支持CANbus通信。支持海康威视机器人视觉飞拍。
